@@ -9,6 +9,7 @@ window.addEventListener('load', function(){
     //window.confirm('音楽が再生されますが、よろしいでしょうか');
     canvas.addEventListener('click', function(){
         myAudio.play();
+	myAudio.loop = true;
     });
 // ボリューム設定
 let elem_volume = document.getElementById("volume");
@@ -427,7 +428,7 @@ class Drone extends Enemy {
             this.ammoInterval = 350;
             this.gameOver = false;
             this.score = 0;
-            this.winningScore = 80;
+            this.winningScore = 200;
             this.gameTime = 0;
             this.timeLimit = 30000;
             this.speed = 1;
