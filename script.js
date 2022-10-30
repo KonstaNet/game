@@ -6,7 +6,6 @@ window.addEventListener('load', function(){
     canvas.height = 500;
     const myAudio = new Audio("./assets/神隠しの真相.mp3")
     myAudio.currentTime = 0;
-    //window.confirm('音楽が再生されますが、よろしいでしょうか');
     canvas.addEventListener('click', function(){
         myAudio.play();
 	myAudio.loop = true;
