@@ -6,4 +6,4 @@ https://www.youtube.com/watch?v=7BHs1BzA4fs
 スペースキーでミサイルを打つことができます。  
 30秒以内にスコアーが200を超えれば勝利です。
 #  Game
-https://konstanet.github.io/game/
+https://socialwithdrawal.github.io/game/
